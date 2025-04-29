@@ -85,7 +85,7 @@ def normalize_short_url(url: str) -> str:
         final_url = url
 
     # YouTube Shorts -> regular watch URL
-    m = re.match(r'https?://(?:www\.)?youtube\.com/shorts/([^?\s/]+)', final_url)
+    m = re.match(r'https?://youtube\.com/shorts/([^?\s/]+)', final_url)
     if m:
         video_id = m.group(1)
         new_url = f'https://www.youtube.com/watch?v={video_id}'
