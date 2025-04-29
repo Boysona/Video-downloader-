@@ -1,4 +1,4 @@
-Flask
-pyTelegramBotAPI
-yt-dlp
-gunicorn
+Flask==2.2.5
+pyTelegramBotAPI==4.14.0
+yt-dlp==2024.3.10
+gunicorn==21.2.0
