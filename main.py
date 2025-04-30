@@ -182,7 +182,7 @@ def download_video_any(url):
         'outtmpl': filename,
         'quiet': True,
         'noplaylist': True,
-        'merge_output_format': 'mp4',
+        'merge_output_format': 'best',
         'ignoreerrors': True
     }
     try:
