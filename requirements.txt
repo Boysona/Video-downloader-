@@ -4,3 +4,4 @@ yt-dlp==2024.04.09
 faster-whisper==0.10.0
 requests
 Pillow
+jabavnanbabajvs
