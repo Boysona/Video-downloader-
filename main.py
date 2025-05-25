@@ -7,11 +7,11 @@ import uuid
 from flask import Flask, request, abort
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = "8136008912:AAHwM1ZBZ2WxgCnFpRA0MC_EIr9KcRQiF3c"
+BOT_TOKEN = "7770743573:AAHDlDTlactC7KU2L6nT6bzW9ueDuIp0p4Q"
 ADMIN_ID = 5978150981
 USER_FILE = "users.txt"
 DOWNLOAD_DIR = "downloads"
-WEBHOOK_URL = "https://one-video-downloader-qikt.onrender.com"
+WEBHOOK_URL = "https://media-transcriber-bot.onrender.com"
 
 app = Flask(__name__)
 bot = telebot.TeleBot(BOT_TOKEN)
