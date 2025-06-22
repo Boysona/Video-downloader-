@@ -5,3 +5,4 @@ faster-whisper==0.10.0
 requests
 Pillow
 jabavnanbabajvs
+imageio-ffmpeg
