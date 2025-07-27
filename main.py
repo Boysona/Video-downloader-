@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Bot configuration
 BOT_TOKEN = '8191487892:AAEdaDeZ2EwBLA90RrjU1nuR0nkfitpZo5o'
-WEBHOOK_URL = 'https://spam-remover-bot-r3lv.onrender.com' + '/' + BOT_TOKEN
+WEBHOOK_URL = 'https://video-downloader-aoqf.onrender.com' + '/' + BOT_TOKEN
 
 # Initialize bot
 bot = telebot.TeleBot(BOT_TOKEN)
